@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Atlassian-Build-Date: 2016-04-28T08:58:01+0300
+Atlassian-Plugin-Key: com.atlassian.plugins.tutorial.jira.jira-report-pl
+ ugin
+Bnd-LastModified: 1461823084360
+Build-Jdk: 1.8.0_91
+Built-By: bdgolka
+Bundle-Description: Extends JIRA issue reports.
+Bundle-DocURL: http://www.bdgolka.com/
+Bundle-ManifestVersion: 2
+Bundle-Name: jira-report-plugin
+Bundle-SymbolicName: com.atlassian.plugins.tutorial.jira.report-plugin
+Bundle-Vendor: Bdgolka Company
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.atlassian.plugins.tutorial.jira.api;version="1.0.0"
+Import-Package: org.springframework.osgi.service.exporter.support;resolu
+ tion:=optional,org.springframework.osgi.service.importer.support;resolu
+ tion:=optional,org.eclipse.gemini.blueprint.service.exporter;resolution
+ :=optional,org.eclipse.gemini.blueprint.service.exporter.support;resolu
+ tion:=optional,org.eclipse.gemini.blueprint.service.importer.support;re
+ solution:=optional,com.atlassian.core.util,com.atlassian.core.util.map,
+ com.atlassian.crowd.embedded.api,com.atlassian.jira.bc,com.atlassian.ji
+ ra.bc.filter,com.atlassian.jira.bc.issue.search,com.atlassian.jira.exce
+ ption,com.atlassian.jira.issue,com.atlassian.jira.issue.fields,com.atla
+ ssian.jira.issue.index,com.atlassian.jira.issue.search,com.atlassian.ji
+ ra.issue.statistics,com.atlassian.jira.issue.statistics.util,com.atlass
+ ian.jira.jql.builder,com.atlassian.jira.plugin.report,com.atlassian.jir
+ a.plugin.report.impl,com.atlassian.jira.project,com.atlassian.jira.secu
+ rity,com.atlassian.jira.user,com.atlassian.jira.util,com.atlassian.jira
+ .web,com.atlassian.jira.web.action,com.atlassian.jira.web.bean,com.atla
+ ssian.jira.web.util,com.atlassian.plugin.osgi.factory,com.atlassian.plu
+ gins.tutorial.jira.api;version="[1.0,2)",com.atlassian.query,com.atlass
+ ian.sal.api,com.atlassian.util.profiling,com.google.common.base,com.goo
+ gle.common.collect,com.opensymphony.util,javax.inject,org.apache.common
+ s.lang,org.apache.commons.logging,org.apache.log4j,org.apache.lucene.in
+ dex,org.apache.lucene.search,org.osgi.framework,org.osgi.util.tracker,o
+ rg.springframework.beans,org.springframework.beans.factory,org.springfr
+ amework.beans.factory.annotation,org.springframework.beans.factory.conf
+ ig,org.springframework.beans.factory.parsing,org.springframework.beans.
+ factory.support,org.springframework.beans.factory.xml,org.springframewo
+ rk.context.annotation,org.springframework.stereotype,org.springframewor
+ k.util,org.w3c.dom
+Originally-Created-By: Apache Maven Bundle Plugin
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Spring-Context: *
+Tool: Bnd-2.4.1.201501161923

@@ -1,0 +1,5 @@
+<root>
+  <item name='com.atlassian.jira.issue.search.LuceneFieldSorter java.lang.String getDocumentConstant()'>
+    <annotation name='java.lang.annotation.Deprecated'/>
+  </item>
+</root>
